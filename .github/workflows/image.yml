@@ -1,0 +1,51 @@
+# On every push to main that changes the code: build the image, run the tests inside it, push it to ECR.
+# The image is tagged with the commit (as README, "Running on AWS", B). AWS access: GitHub's OIDC token is exchanged
+# for the role enefit-github (no stored keys); see README for that role.
+name: image
+on:
+  push:
+    branches: [main]
+    paths: [src/**, tests/**, pyproject.toml, Dockerfile]   # a docs-only commit needs no new image
+  workflow_dispatch:                                        # "Run workflow" button: build the current main
+permissions:
+  id-token: write   # lets the job ask GitHub for an OIDC token, which AWS trusts (README)
+  contents: read
+concurrency: image  # one build at a time
+jobs:
+  image:
+    runs-on: ubuntu-latest   # x86, like SageMaker
+    steps:
+      - uses: actions/checkout@v7
+      - uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: us-east-1
+      - id: ecr
+        uses: aws-actions/amazon-ecr-login@v2
+      - name: Image name
+        run: |
+          echo "IMAGE=${{ steps.ecr.outputs.registry }}/enefit:$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+          echo "BUCKET=enefit-mlops-$(aws sts get-caller-identity --query Account --output text)" >> $GITHUB_ENV
+      - name: Already in ECR?   # tags are immutable: a commit is built once
+        id: exists
+        run: |
+          if aws ecr describe-images --repository-name enefit --image-ids imageTag=${IMAGE##*:} >/dev/null 2>&1; then
+            echo "skip=true" >> $GITHUB_OUTPUT; echo "$IMAGE is already in ECR"
+          fi
+      - name: Build
+        if: steps.exists.outputs.skip != 'true'
+        run: git archive HEAD | docker build --provenance=false --build-arg GIT_COMMIT=$(git rev-parse HEAD) -t $IMAGE -
+      - name: Data from S3   # the Kaggle files are not in git
+        if: steps.exists.outputs.skip != 'true'
+        run: |
+          aws s3 sync s3://$BUCKET/data/raw data/raw --only-show-errors
+          aws s3 sync s3://$BUCKET/data/ext data/ext --only-show-errors
+      - name: Tests in the image
+        # raw data mounted read-only; the serving table is built inside the container (x86), so every test runs (Mac and x86 tables differ in the last bit)
+        if: steps.exists.outputs.skip != 'true'
+        run: >
+          docker run --rm -v "$PWD/data/raw:/data/raw:ro" -v "$PWD/data/ext:/data/ext:ro" -e ENEFIT_DATA_DIR=/data $IMAGE
+          sh -c "python -m enefit.features --build && pytest -q"
+      - name: Push
+        if: steps.exists.outputs.skip != 'true'
+        run: docker push $IMAGE

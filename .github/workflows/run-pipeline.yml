@@ -1,0 +1,35 @@
+# "Run workflow" button (Actions tab): start the SageMaker Pipeline (enefit.pipeline) with the image of a commit.
+# Training costs money, so this never runs on its own; the image workflow must have built that commit first.
+name: run-pipeline
+on:
+  workflow_dispatch:
+    inputs:
+      commit:
+        description: "Image tag (short commit); empty = the commit this runs on"
+        required: false
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.10"
+      - run: pip install boto3==1.43.108   # all enefit.pipeline needs; the jobs themselves run in the image
+      - uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: us-east-1
+      - id: ecr
+        uses: aws-actions/amazon-ecr-login@v2
+      - name: Start the pipeline
+        env:
+          TAG: ${{ inputs.commit }}
+        run: |
+          TAG=${TAG:-$(git rev-parse --short HEAD)}
+          aws ecr describe-images --repository-name enefit --image-ids imageTag=$TAG >/dev/null \
+            || { echo "::error::no image enefit:$TAG in ECR; run the image workflow for that commit first"; exit 1; }
+          PYTHONPATH=src python -m enefit.pipeline --image ${{ steps.ecr.outputs.registry }}/enefit:$TAG

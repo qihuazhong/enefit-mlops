@@ -1,0 +1,214 @@
+ref,fileName,date,description,status,publicScore,privateScore
+36233461,submission.csv,2024-01-31 23:56:37.797000,Notebook Fork of Loaded trained models | Version 1,SubmissionStatus.ERROR,,
+36162927,submission.csv,2024-01-28 04:24:04.227000,Version 52 | 0127e_custom_3fcv,SubmissionStatus.ERROR,61.8770,61.8770
+36161034,submission.csv,2024-01-28 00:09:12.173000,Notebook Loaded trained models | Version 51,SubmissionStatus.ERROR,61.8423,61.8423
+36160889,submission.csv,2024-01-27 23:56:58.013000,Notebook Loaded trained models | Version 50,SubmissionStatus.ERROR,61.8231,61.8231
+36159656,submission.csv,2024-01-27 21:36:17.243000,Version 49 | 0127_custom_3fcv: 22x3,SubmissionStatus.ERROR,61.8278,61.8278
+36146462,submission.csv,2024-01-26 21:22:54.580000,Version 48 | custom 3fcv 3x18,SubmissionStatus.ERROR,61.8282,61.8282
+36136975,submission.csv,2024-01-26 06:01:19.020000,Version 47 | 0124_custom_3fcv 18x3 boosters,SubmissionStatus.ERROR,62.0807,62.0807
+36133589,submission.csv,2024-01-25 23:27:38.987000,Version 46 | 0124_custom_3fcv_sf,SubmissionStatus.ERROR,62.5869,62.5869
+36127602,submission.csv,2024-01-25 13:58:32.423000,Notebook Loaded trained models | Version 45,SubmissionStatus.ERROR,61.9759,61.9759
+36119239,submission.csv,2024-01-25 00:46:44.147000,Notebook Loaded trained models | Version 44,SubmissionStatus.ERROR,62.2455,62.2455
+36106294,submission.csv,2024-01-24 06:19:12.187000,Version 43 | scaled_target 6f cv by day,SubmissionStatus.ERROR,62.4633,62.4633
+36102635,submission.csv,2024-01-23 23:52:56.117000,Version 42 | +200 rounds for is_consumption==1,SubmissionStatus.ERROR,62.1957,62.1957
+36101923,submission.csv,2024-01-23 22:26:23.237000,"Version 41 | 2 x 14 models, 2 sets vary by epsilon",SubmissionStatus.ERROR,62.3375,62.3375
+36090272,submission.csv,2024-01-23 05:08:02.853000,Notebook Loaded trained models | Version 40,SubmissionStatus.ERROR,62.2414,62.2414
+36090054,submission.csv,2024-01-23 04:42:56.693000,Notebook Loaded trained models | Version 39,SubmissionStatus.ERROR,62.2414,62.2414
+36084827,submission.csv,2024-01-22 20:27:56.080000,Version 38 | 0112b + lag_14_day_diff,SubmissionStatus.ERROR,61.9691,61.9691
+36073991,submission.csv,2024-01-22 08:22:26.253000,Version 37 | 0112c,SubmissionStatus.ERROR,62.0270,62.0270
+36071439,submission.csv,2024-01-22 05:14:08.057000,Version 35 | 0112b,SubmissionStatus.ERROR,61.9520,61.9520
+36069879,submission.csv,2024-01-22 02:59:26.200000,Version 34 | debug,SubmissionStatus.ERROR,360.7441,360.7441
+36066655,submission.csv,2024-01-21 22:18:26.473000,Version 33 | debug,SubmissionStatus.ERROR,360.7441,360.7441
+36054918,submission.csv,2024-01-21 07:53:36.007000,Version 32 | debug,SubmissionStatus.ERROR,360.7441,360.7441
+36053713,submission.csv,2024-01-21 06:04:13.073000, Version 31 | debug,SubmissionStatus.ERROR,,
+36053468,submission.csv,2024-01-21 05:35:01.227000,Version 30 | debug,SubmissionStatus.ERROR,,
+36052427,submission.csv,2024-01-21 03:38:43.893000,Version 29 | debug,SubmissionStatus.ERROR,,
+36050265,submission.csv,2024-01-20 23:59:36.523000,Version 28 | debug,SubmissionStatus.ERROR,,
+36049505,submission.csv,2024-01-20 23:04:44.547000,Version 27 | debug,SubmissionStatus.ERROR,,
+36048334,submission.csv,2024-01-20 21:27:55.170000,Version 26 | debug,SubmissionStatus.ERROR,360.7441,360.7441
+36036277,submission.csv,2024-01-20 04:11:12.553000,Version 25 | debug,SubmissionStatus.ERROR,,
+36035759,submission.csv,2024-01-20 03:17:07.523000,Version 24 | debug,SubmissionStatus.ERROR,360.7441,360.7441
+36032892,submission.csv,2024-01-19 22:45:31.497000,Version 23 | 0119b,SubmissionStatus.ERROR,,
+36020893,submission.csv,2024-01-19 06:12:25.837000,Version 22 | 0119 retrain cv by day,SubmissionStatus.ERROR,61.5468,61.5468
+36020882,submission.csv,2024-01-19 06:11:38.463000,Version 21 | 0119,SubmissionStatus.ERROR,61.5472,61.5472
+36017691,submission.csv,2024-01-19 01:40:24.577000,Version 20 | 0118b + regular online training,SubmissionStatus.ERROR,61.4161,61.4161
+36017687,submission.csv,2024-01-19 01:40:05.383000,Version 19 | 0118b + augmented online training,SubmissionStatus.ERROR,61.4124,61.4124
+36016480,submission.csv,2024-01-18 23:59:38.060000,Version 18 |v4,SubmissionStatus.ERROR,,
+36016475,submission.csv,2024-01-18 23:59:07.563000,Notebook Loaded trained models | Version 17,SubmissionStatus.ERROR,,
+36016212,submission.csv,2024-01-18 23:40:37.220000,"Version 16 | retrain 5 rounds every 14 days, lr 0.1/5, augment new data. Equal weights",SubmissionStatus.ERROR,,
+36016202,submission.csv,2024-01-18 23:39:46.493000,"Version 15 | retrain 5 rounds every 14 days, lr 0.1/5, augment new data",SubmissionStatus.ERROR,,
+36015295,submission.csv,2024-01-18 22:10:58.327000,"Version 14 | train for 5 rounds, lr = 0.1/2",SubmissionStatus.ERROR,61.5072,61.5072
+35999360,submission.csv,2024-01-17 23:33:55.963000,Version 13  | boost 3 rounds,SubmissionStatus.ERROR,61.4128,61.4128
+35986180,submission.csv,2024-01-17 06:04:50.507000,Version 12 | 0116c,SubmissionStatus.ERROR,61.3950,61.3950
+35984979,submission.csv,2024-01-17 03:47:05.607000,"Version 11 | 0116b online train 10 rounds every 14 days, lr=0.1/5",SubmissionStatus.ERROR,61.6567,61.6567
+35984047,submission.csv,2024-01-17 02:15:26.530000,"Version 10 | 0116b online train 5 rounds every 14 days, lr=0.1/5",SubmissionStatus.ERROR,61.5338,61.5338
+35984039,submission.csv,2024-01-17 02:14:55.667000,Version 9 | 0116b,SubmissionStatus.ERROR,61.6414,61.6414
+35963243,submission.csv,2024-01-16 05:01:43.703000,"Version 8 | v7 + train 5 rounds every 14 days, lr = 0.1/10",SubmissionStatus.ERROR,61.8364,61.8364
+35963219,submission.csv,2024-01-16 04:59:12.710000,"Version 7 | v1 + target_all_type_lag_2_day, target_all_type_lag_7_day for consumption (except target==""target"") consumption_counterpart_all_type_lag_2_day, consumption_counterpart_all_type_lag_7_day for production",SubmissionStatus.ERROR,61.8931,61.8931
+35961631,submission.csv,2024-01-16 02:23:04.893000,"Version 6 | v1 + train 5 rounds every 14 days, lr=0.1 / 20",SubmissionStatus.ERROR,61.8626,61.8626
+35961592,submission.csv,2024-01-16 02:19:03.893000,"Version 5 | v1 + train 5 rounds every 21 days, lr=0.1 / 10",SubmissionStatus.ERROR,61.8399,61.8399
+35960392,submission.csv,2024-01-16 00:25:32.340000,Version 4 | v1 + Train 5 rounds every 21 days of new data,SubmissionStatus.ERROR,61.8708,61.8708
+35959156,submission.csv,2024-01-15 22:12:33.163000,"Version 3 | production: coef_0, coef_1, coef_2, coef_3 = 3/9, 2/9, 2/9, 2/9",SubmissionStatus.ERROR,62.0196,62.0196
+35958134,submission.csv,2024-01-15 20:38:22.957000,Version 238 | remove target_all_type,SubmissionStatus.ERROR,61.8149,61.8149
+35943004,submission.csv,2024-01-14 22:08:33.763000,Version 237 | lgbm3.3.2,SubmissionStatus.ERROR,61.9029,61.9029
+35942145,submission.csv,2024-01-14 20:44:45.717000,Notebook Loaded trained models | Version 1,SubmissionStatus.ERROR,61.9080,61.9080
+35931948,submission.csv,2024-01-14 06:15:51.513000,Version 236 | bugfix,SubmissionStatus.ERROR,61.9212,61.9212
+35927966,submission.csv,2024-01-13 21:58:39.350000,Version 235 | v233 + lgb4.2,SubmissionStatus.ERROR,,
+35927951,submission.csv,2024-01-13 21:56:50.117000,Version 234 + v233 + lgb4.2,SubmissionStatus.ERROR,,
+35927261,submission.csv,2024-01-13 20:31:04.760000,Version 233 | bug fix: 'target_all_type',SubmissionStatus.ERROR,,
+35914950,submission.csv,2024-01-13 01:06:20.990000,Version 232 | v231 + leakage fix: new_df['target_all_type_lag_2_day'] = new_df['target_all_type'].shift(48*2),SubmissionStatus.ERROR,,
+35914520,submission.csv,2024-01-13 00:18:39.307000,Version 231 | v228 + 'target_all_type_lag_2_day' for consumption; 'feature_fraction': 0.9-0.2+0.2*(target=='target'),SubmissionStatus.ERROR,,
+35914054,submission.csv,2024-01-12 23:34:53.173000,"Version 230 | v229 + coef_0, coef_1, coef_2, coef_3 = 1/3, 1/3, 0, 1/3 for consumption",SubmissionStatus.ERROR,62.5735,62.5735
+35914038,submission.csv,2024-01-12 23:32:43.643000,"Version 229 | v228 + 'feature_fraction': 0.9 - 0.2 + 0.1, ",SubmissionStatus.ERROR,61.8730,61.8730
+35902087,submission.csv,2024-01-12 06:48:46.730000,"Version 228 | v226 + 'reg_sqrt': True,",SubmissionStatus.ERROR,61.8217,61.8217
+35895591,submission.csv,2024-01-11 21:33:00.100000,Version 227 | v226 + filter_hours_ahead=True for training,SubmissionStatus.ERROR,62.1136,62.1136
+35895117,submission.csv,2024-01-11 20:59:48.770000,"Version 226 | v225 +  'feature_fraction': 0.9 - 0.2, ",SubmissionStatus.ERROR,61.8296,61.8296
+35883095,submission.csv,2024-01-11 07:05:37.030000,Version 225 | Fix `rolling_mean_24_lag_7_day` during inference,SubmissionStatus.ERROR,61.8771,61.8771
+35879772,submission.csv,2024-01-11 00:45:09.870000,Version 224,SubmissionStatus.ERROR,62.3446,62.3446
+35878451,submission.csv,2024-01-10 22:25:39.690000,Version 222 | if is_consumption==1:  params['tweedie_variance_power'] = 1.25,SubmissionStatus.ERROR,61.8911,61.8911
+35878392,submission.csv,2024-01-10 22:18:28.090000,Version 221 | 'reg_sqrt': True,SubmissionStatus.ERROR,61.8166,61.8166
+35874780,submission.csv,2024-01-10 16:26:50.707000,Version 220 | v217 + float16 train data,SubmissionStatus.ERROR,61.8361,61.8361
+35865902,submission.csv,2024-01-10 03:33:51.743000,"Version 219 | production: coef_0, coef_1, coef_2, coef_3 = 7/10, 1/10, 1/10, 1/10",SubmissionStatus.ERROR,61.9243,61.9243
+35865827,submission.csv,2024-01-10 03:26:45.627000,"Version 218 | production: coef_0, coef_1, coef_2, coef_3 = 7/10, 1/10, 1/10, 1/10",SubmissionStatus.ERROR,62.2985,62.2985
+35861632,submission.csv,2024-01-09 20:26:08.873000,Version 217 | CV by day,SubmissionStatus.ERROR,61.8652,61.8652
+35861596,submission.csv,2024-01-09 20:22:19.207000,  Version 216 | More data augmentation (800000),SubmissionStatus.ERROR,62.1022,62.1022
+35855859,submission.csv,2024-01-09 13:41:13.520000,Version 215 | Fix `rolling_mean_24_lag_7_day` during inference,SubmissionStatus.ERROR,62.1685,62.1685
+35849237,submission.csv,2024-01-09 05:45:09.597000,Notebook Enefit energy prediction | Version 214,SubmissionStatus.ERROR,62.4876,62.4876
+35845407,submission.csv,2024-01-08 23:37:06.650000,"Version 212 | Version 204 +  
+['target']: 'temperature_lag_1h';    
+
+['target', 'lag_7_day_mean_diff', 
+'lag_7_day_mean_diff_neg']:   'temperature_7_day_mean_diff'; 
+
+[target
+lag_7_day_mean_diff
+lag_7_day_mean_diff_neg
+lag_2_day_diff
+lag_2_day_diff_neg
+]: temperature_2_day_1h_diff'
+
+",SubmissionStatus.ERROR,62.1010,62.1010
+35844857,submission.csv,2024-01-08 22:36:12.463000,Version 210 | Version 203 + ['hours_ahead'] <= 24 for training data,SubmissionStatus.ERROR,86.3389,86.3389
+35844744,submission.csv,2024-01-08 22:24:43.143000,Version 209 | version 203 + removed `daytype_lag_3_day` feature,SubmissionStatus.ERROR,62.3874,62.3874
+35823157,submission.csv,2024-01-08 06:08:21.277000,Version 207 | predict diff targets directly with l1 objective,SubmissionStatus.ERROR,62.6287,62.6287
+35820918,submission.csv,2024-01-08 03:47:43.473000,Version 204 | version 203 + More augmented data samples ([-400000:]),SubmissionStatus.ERROR,62.2916,62.2916
+35816933,submission.csv,2024-01-07 23:25:47.977000,Version 203 | lag_7_day_m1h for lag_7_day_diff targets; 'direct_solar_radiation_7_day_1h_diff' and 'temperature_7_day_1h_diff' for for lag_7_day_diff consumption target; HP change,SubmissionStatus.ERROR,62.3460,62.3460
+35816828,submission.csv,2024-01-07 23:13:57.553000,"Version 201 | train = train[train['datetime'] >= pd.to_datetime(""2022-01-01 00:00:00"")]",SubmissionStatus.ERROR,62.3091,62.3091
+35816810,submission.csv,2024-01-07 23:11:44.907000,Version 200 | More augmented data samples ([-400000:]); Next step: undo v198 and v203?,SubmissionStatus.ERROR,62.0987,62.0987
+35815000,submission.csv,2024-01-07 20:05:00.583000,Version 199 | Do not correct weather bias,SubmissionStatus.ERROR,62.2124,62.2124
+35797092,submission.csv,2024-01-07 05:59:03.527000,Version 198 | added snowfall_1_day_rolling_sum_lag_2_day_diff for is_consumption=0；lag_7_day_1h for is_consumption=1 ,SubmissionStatus.ERROR,62.3791,62.3791
+35791107,submission.csv,2024-01-06 19:41:35.043000,Version 197 | added snowfall_1_day_rolling_sum_lag_2_day_diff for is_consumption=0；lag_7_day_1h for is_consumption=1 ,SubmissionStatus.ERROR,,
+35790943,submission.csv,2024-01-06 19:29:01.100000,Version 196 | Do not correct weather bias,SubmissionStatus.ERROR,,
+35790930,submission.csv,2024-01-06 19:27:57.450000,Version 195 | added snowfall_1_day_rolling_sum_lag_2_day_diff for is_consumption=0；lag_7_day_1h for is_consumption=1 ,SubmissionStatus.ERROR,,
+35776223,submission.csv,2024-01-06 04:44:59.790000,Version 193 | bug fix for grouped_consumption_counterpart features,SubmissionStatus.ERROR,62.3067,62.3067
+35776012,submission.csv,2024-01-06 04:22:51.430000,Version 192 | bug fix: consumption_counterpart features; added daytype_lag_3_day,SubmissionStatus.ERROR,66.5319,66.5319
+35772910,submission.csv,2024-01-05 22:38:38.597000,Version 190 | 6 fold,SubmissionStatus.ERROR,62.4396,62.4396
+35772908,submission.csv,2024-01-05 22:38:27.800000,Version 189 | correct all weather forecast bias,SubmissionStatus.ERROR,62.5501,62.5501
+35764386,submission.csv,2024-01-05 13:01:09.260000,Version 186 | Coef change for ensemble,SubmissionStatus.ERROR,62.8021,62.8021
+35764183,submission.csv,2024-01-05 12:49:39.007000,"Version 185 | 5 fold, correct radiation bias",SubmissionStatus.ERROR,62.4448,62.4448
+35750378,submission.csv,2024-01-04 17:15:10.420000,Notebook Enefit energy prediction | Version 184,SubmissionStatus.ERROR,73.7678,73.7678
+35747369,submission.csv,2024-01-04 14:01:25.180000,Version 182 | 6 fold,SubmissionStatus.ERROR,,
+35746707,submission.csv,2024-01-04 13:17:08.463000,Version 181 | 6 fold,SubmissionStatus.ERROR,,
+35738331,submission.csv,2024-01-04 01:35:58.817000,Version 179 | removed `month` feature,SubmissionStatus.ERROR,62.7082,62.7082
+35738028,submission.csv,2024-01-04 00:59:57.140000,"Version 177 | Chane k to 4 for k fold; added features: rolling 24 kurt & rolling 24 skew, lag 3 days consumption conterpart",SubmissionStatus.ERROR,,
+35736709,submission.csv,2024-01-03 22:52:39.267000,Version 175 | Group k fold by days,SubmissionStatus.ERROR,,
+35736096,submission.csv,2024-01-03 21:44:39.827000,Version 173 | filter forecast by `hours_ahead` >= 22 <=45,SubmissionStatus.ERROR,63.1106,63.1106
+35733744,submission.csv,2024-01-03 18:22:54.737000,Notebook Enefit energy prediction | Version 171,SubmissionStatus.ERROR,62.7131,62.7131
+35733640,submission.csv,2024-01-03 18:13:24.353000,Notebook Enefit energy prediction | Version 169,SubmissionStatus.ERROR,62.5900,62.5900
+35731735,submission.csv,2024-01-03 15:42:17.510000,Version 166 | uniform sampling (0.6) for data augmentation; No weighting,SubmissionStatus.ERROR,62.7031,62.7031
+35710267,submission.csv,2024-01-02 11:18:53.307000,Notebook Enefit energy prediction | Version 165,SubmissionStatus.ERROR,62.7144,62.7144
+35705129,submission.csv,2024-01-02 04:33:38.297000,Notebook Enefit energy prediction | Version 164,SubmissionStatus.ERROR,,
+35702254,submission.csv,2024-01-01 23:31:39.487000,Notebook Enefit energy prediction | Version 163,SubmissionStatus.ERROR,,
+35698614,submission.csv,2024-01-01 16:56:34.690000,"Version 162 | Scale `rolling_mean_24`,  `rolling_std_24` and  `lag_8_14_day_mean` for data augmentation",SubmissionStatus.ERROR,62.6697,62.6697
+35698244,submission.csv,2024-01-01 16:26:09.753000,Version 161 | Data to be augmented: sort by datetime,SubmissionStatus.ERROR,62.8603,62.8603
+35698043,submission.csv,2024-01-01 16:10:47.907000,"Version 160 | Added ""school_holiday"" feature",SubmissionStatus.ERROR,63.5859,63.5859
+35687581,submission.csv,2023-12-31 19:51:26.040000,Notebook Enefit energy prediction | Version 159,SubmissionStatus.ERROR,63.5892,63.5892
+35685856,submission.csv,2023-12-31 16:47:56.270000,Version 158 | Augment data for the last 200000 rows,SubmissionStatus.ERROR,63.4979,63.4979
+35576122,submission.csv,2023-12-24 14:01:37.503000,Version 157 | Reinstate 'eic_count_7_day_mean_diff' and 'installed_capacity_7_day_mean_diff' as raw features,SubmissionStatus.ERROR,63.6720,63.6720
+35576119,submission.csv,2023-12-24 14:01:32.540000,Version 156 | Replace sin_hour and cos_hour features with just categorical hour,SubmissionStatus.ERROR,63.8490,63.8490
+35575128,submission.csv,2023-12-24 12:53:48.107000,Notebook Enefit energy prediction | Version 155,SubmissionStatus.ERROR,66.8645,66.8645
+35572198,submission.csv,2023-12-24 08:51:38.173000,Version 154 | Bug fix: apply scale_factor for pred_0,SubmissionStatus.ERROR,66.7311,66.7311
+35564220,submission.csv,2023-12-23 17:44:30.687000,Version 153 | Scale targets by installed_capacity,SubmissionStatus.ERROR,119.2229,119.2229
+35558741,submission.csv,2023-12-23 10:34:28.253000,Version 152 | Keep `euros_per_mwh_lag_7_day_mean_diff` feature,SubmissionStatus.ERROR,63.9365,63.9365
+35558617,submission.csv,2023-12-23 10:23:15.963000,Version 151 | eic_count/installed capacity lag features: keep NA instead of fill(0),SubmissionStatus.ERROR,63.9059,63.9059
+35557804,submission.csv,2023-12-23 09:04:51.163000,Version 150 | electricity price features: fix a typo in getting lag elec price (24 hours per day not 28),SubmissionStatus.ERROR,63.9156,63.9156
+35549905,submission.csv,2023-12-22 17:07:46.630000,Notebook Enefit energy prediction | Version 149,SubmissionStatus.ERROR,63.9057,63.9057
+35504730,submission.csv,2023-12-20 13:04:18.557000,Notebook Enefit energy prediction | Version 148,SubmissionStatus.ERROR,63.6928,63.6928
+35500580,submission.csv,2023-12-20 09:24:51.637000,Notebook Enefit energy prediction | Version 147,SubmissionStatus.ERROR,,
+35497177,submission.csv,2023-12-20 06:09:45.267000,Notebook Fork of Enefit energy prediction bc39dd | Version 19,SubmissionStatus.ERROR,63.8373,63.8373
+35497148,submission.csv,2023-12-20 06:07:18.320000,Notebook Fork of Enefit energy prediction bc39dd | Version 18,SubmissionStatus.ERROR,63.9136,63.9136
+35496842,submission.csv,2023-12-20 05:43:11.367000,Notebook Fork of Enefit energy prediction bc39dd | Version 17,SubmissionStatus.ERROR,360.7441,360.7441
+35479415,submission.csv,2023-12-19 13:21:25.150000,Notebook Fork of Enefit energy prediction bc39dd | Version 16,SubmissionStatus.ERROR,360.7441,360.7441
+35473623,submission.csv,2023-12-19 07:47:03.800000,Notebook Fork of Enefit energy prediction bc39dd | Version 15,SubmissionStatus.ERROR,,
+35471432,submission.csv,2023-12-19 06:17:13.260000,Notebook Fork of Enefit energy prediction bc39dd | Version 14,SubmissionStatus.ERROR,360.7441,360.7441
+35471299,submission.csv,2023-12-19 06:11:28.640000,Notebook Fork of Enefit energy prediction bc39dd | Version 13,SubmissionStatus.ERROR,,
+35471105,submission.csv,2023-12-19 06:01:52.693000,Notebook Fork of Enefit energy prediction bc39dd | Version 12,SubmissionStatus.ERROR,,
+35433950,submission.csv,2023-12-18 13:56:27.093000,Notebook Fork of Enefit energy prediction bc39dd | Version 11,SubmissionStatus.ERROR,,
+35433566,submission.csv,2023-12-18 13:49:39.980000,Notebook Fork of Enefit energy prediction bc39dd | Version 10,SubmissionStatus.ERROR,360.7441,360.7441
+35431168,submission.csv,2023-12-18 12:43:16.730000,Notebook Fork of Enefit energy prediction bc39dd | Version 9,SubmissionStatus.ERROR,360.7441,360.7441
+35427839,submission.csv,2023-12-18 09:19:44.310000,Notebook Enefit Basic Submission Demo ff7fa9 | Version 1,SubmissionStatus.ERROR,360.7441,360.7441
+35427152,submission.csv,2023-12-18 08:42:34.937000,Notebook Fork of Enefit energy prediction bc39dd | Version 8,SubmissionStatus.ERROR,,
+35389593,submission.csv,2023-12-16 18:21:17.333000,Notebook Fork of Enefit energy prediction bc39dd | Version 7,SubmissionStatus.ERROR,,
+35388861,submission.csv,2023-12-16 17:43:25.977000,Notebook Fork of Enefit energy prediction bc39dd | Version 6,SubmissionStatus.ERROR,,
+35387386,submission.csv,2023-12-16 16:57:22.503000,Notebook Fork of Enefit energy prediction bc39dd | Version 5,SubmissionStatus.ERROR,,
+35386741,submission.csv,2023-12-16 16:28:52.577000,Notebook Fork of Enefit energy prediction bc39dd | Version 4,SubmissionStatus.ERROR,,
+35355286,submission.csv,2023-12-15 10:56:22.513000,Notebook Fork of Enefit energy prediction bc39dd | Version 3,SubmissionStatus.ERROR,,
+35353472,submission.csv,2023-12-15 09:08:39.507000,Notebook Fork of Enefit energy prediction bc39dd | Version 2,SubmissionStatus.ERROR,,
+35311387,submission.csv,2023-12-13 16:31:39.833000,Notebook Fork of Enefit energy prediction | Version 4,SubmissionStatus.ERROR,,
+35303767,submission.csv,2023-12-13 09:42:35.640000,Notebook Enefit energy prediction | Version 146,SubmissionStatus.ERROR,,
+35303567,submission.csv,2023-12-13 09:27:58.093000,Notebook Fork of Enefit energy prediction | Version 3,SubmissionStatus.ERROR,,
+35303413,submission.csv,2023-12-13 09:18:21.860000,Notebook Fork of Enefit energy prediction | Version 1,SubmissionStatus.ERROR,,
+35094648,submission.csv,2023-12-04 04:57:44.817000,Notebook Enefit energy prediction | Version 144,SubmissionStatus.ERROR,71.9167,71.9167
+35082839,submission.csv,2023-12-03 16:56:15.770000,Notebook Enefit energy prediction | Version 143,SubmissionStatus.ERROR,71.7323,71.7323
+35082711,submission.csv,2023-12-03 16:49:01.220000,Notebook Enefit energy prediction | Version 142,SubmissionStatus.ERROR,71.5098,71.5098
+35073618,submission.csv,2023-12-03 08:02:47.913000,Notebook Enefit energy prediction | Version 141,SubmissionStatus.ERROR,,
+35061867,submission.csv,2023-12-02 17:50:06.360000,Notebook Enefit energy prediction | Version 136,SubmissionStatus.ERROR,,
+35053572,submission.csv,2023-12-02 10:41:36.193000,Notebook Enefit energy prediction | Version 131,SubmissionStatus.ERROR,63.8135,63.8135
+35052035,submission.csv,2023-12-02 08:52:56.510000,Notebook Enefit energy prediction | Version 130,SubmissionStatus.ERROR,,
+35039356,submission.csv,2023-12-01 17:59:44.727000,Notebook Enefit energy prediction | Version 129,SubmissionStatus.ERROR,63.6382,63.6382
+34653847,submission.csv,2023-11-15 16:35:16.690000,Notebook Enefit energy prediction | Version 125,SubmissionStatus.ERROR,64.4522,64.4522
+34623400,submission.csv,2023-11-14 09:01:59.953000,Notebook Enefit energy prediction | Version 124,SubmissionStatus.ERROR,64.1175,64.1175
+34620344,submission.csv,2023-11-14 05:46:47.867000,Notebook Enefit energy prediction | Version 123,SubmissionStatus.ERROR,64.3975,64.3975
+34617323,submission.csv,2023-11-14 02:30:38.397000,Notebook Enefit energy prediction | Version 122,SubmissionStatus.ERROR,65.2823,65.2823
+34617088,submission.csv,2023-11-14 02:15:40.350000,Notebook Enefit energy prediction | Version 121,SubmissionStatus.ERROR,65.2550,65.2550
+34600404,submission.csv,2023-11-13 08:05:44.433000,Notebook Enefit energy prediction | Version 119,SubmissionStatus.ERROR,67.4451,67.4451
+34599557,submission.csv,2023-11-13 07:10:26.680000,Notebook Enefit energy prediction | Version 118,SubmissionStatus.ERROR,67.1181,67.1181
+34595154,submission.csv,2023-11-13 02:09:06.223000,Notebook Enefit energy prediction | Version 117,SubmissionStatus.ERROR,67.3724,67.3724
+34594913,submission.csv,2023-11-13 01:50:53.137000,Notebook Enefit energy prediction | Version 116,SubmissionStatus.ERROR,,
+34594210,submission.csv,2023-11-13 01:00:39.137000,Notebook Enefit energy prediction | Version 115,SubmissionStatus.ERROR,67.2496,67.2496
+34580891,submission.csv,2023-11-12 10:20:48.720000,Notebook Enefit energy prediction | Version 112,SubmissionStatus.ERROR,67.1406,67.1406
+34580868,submission.csv,2023-11-12 10:19:36.517000,Notebook Enefit energy prediction | Version 111,SubmissionStatus.ERROR,66.9903,66.9903
+34580317,submission.csv,2023-11-12 09:38:51.643000,,SubmissionStatus.ERROR,67.4177,67.4177
+34577822,submission.csv,2023-11-12 06:36:29.503000,Notebook Enefit energy prediction | Version 109,SubmissionStatus.ERROR,67.3127,67.3127
+34574151,submission.csv,2023-11-12 01:25:54.580000,,SubmissionStatus.ERROR,68.1600,68.1600
+34561310,submission.csv,2023-11-11 09:10:38.940000,Notebook Enefit energy prediction | Version 105,SubmissionStatus.ERROR,69.4203,69.4203
+34559864,submission.csv,2023-11-11 07:19:21.930000,CV by day,SubmissionStatus.ERROR,68.5106,68.5106
+34559754,submission.csv,2023-11-11 07:11:10.383000,Include samples with missing features,SubmissionStatus.ERROR,68.4018,68.4018
+34557125,submission.csv,2023-11-11 03:15:19.033000,,SubmissionStatus.ERROR,68.9823,68.9823
+34554510,submission.csv,2023-11-10 23:11:59.950000,,SubmissionStatus.ERROR,68.6256,68.6256
+34521725,submission.csv,2023-11-09 07:48:51.693000,,SubmissionStatus.ERROR,69.8845,69.8845
+34498197,submission.csv,2023-11-08 05:30:00.903000,Notebook Enefit energy prediction | Version 84,SubmissionStatus.ERROR,74.1363,74.1363
+34497575,submission.csv,2023-11-08 04:54:18.377000,,SubmissionStatus.ERROR,77.1262,77.1262
+34495019,submission.csv,2023-11-08 02:13:42.383000,,SubmissionStatus.ERROR,87.5246,87.5246
+34474132,submission.csv,2023-11-07 05:54:51.993000,Notebook Enefit energy prediction | Version 73,SubmissionStatus.ERROR,,
+34473376,submission.csv,2023-11-07 05:07:08.993000,Notebook Enefit energy prediction | Version 72,SubmissionStatus.ERROR,77.9267,77.9267
+34472918,submission.csv,2023-11-07 04:36:47.623000,,SubmissionStatus.ERROR,74.3249,74.3249
+34470770,submission.csv,2023-11-07 02:23:54.307000,,SubmissionStatus.ERROR,74.9451,74.9451
+34468756,submission.csv,2023-11-07 00:00:20.143000,,SubmissionStatus.ERROR,74.4014,74.4014
+34453204,submission.csv,2023-11-06 08:01:58.263000,,SubmissionStatus.ERROR,75.5932,75.5932
+34452123,submission.csv,2023-11-06 06:50:49.947000,,SubmissionStatus.ERROR,75.7306,75.7306
+34451348,submission.csv,2023-11-06 05:55:16.033000,,SubmissionStatus.ERROR,,
+34449104,submission.csv,2023-11-06 02:52:11.730000,,SubmissionStatus.ERROR,76.5331,76.5331
+34447341,submission.csv,2023-11-06 00:32:57.257000,,SubmissionStatus.ERROR,78.4820,78.4820
+34433578,submission.csv,2023-11-05 07:40:43.513000,,SubmissionStatus.ERROR,78.1083,78.1083
+34432451,submission.csv,2023-11-05 06:16:12.293000,,SubmissionStatus.ERROR,81.8056,81.8056
+34431395,submission.csv,2023-11-05 04:53:34.493000,,SubmissionStatus.ERROR,94.6775,94.6775
+34427959,submission.csv,2023-11-05 00:31:18.803000,log1p target preprocessing,SubmissionStatus.ERROR,92.5287,92.5287
+34427663,submission.csv,2023-11-05 00:05:15.053000,,SubmissionStatus.ERROR,89.4757,89.4757
+34413742,submission.csv,2023-11-04 06:53:32.223000,,SubmissionStatus.ERROR,144.4014,144.4014
+34412858,submission.csv,2023-11-04 05:38:27.897000,,SubmissionStatus.ERROR,353.2817,353.2817
+34411837,submission.csv,2023-11-04 04:04:01.667000,,SubmissionStatus.ERROR,145.6151,145.6151
+34411685,submission.csv,2023-11-04 03:51:55.493000,,SubmissionStatus.ERROR,149.8063,149.8063
+34410262,submission.csv,2023-11-04 01:38:57.137000,,SubmissionStatus.ERROR,156.8494,156.8494
+34408337,submission.csv,2023-11-03 21:59:37.280000,,SubmissionStatus.ERROR,200.9834,200.9834
+34408234,submission.csv,2023-11-03 21:46:49.387000,Notebook Enefit energy prediction | Version 3,SubmissionStatus.ERROR,,
